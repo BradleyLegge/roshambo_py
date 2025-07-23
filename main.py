@@ -22,7 +22,10 @@ def main():
     print("2 - Paper")
     print("3 - Scissors")
     users_input = user_input("Enter your choice: ")
-    print(f"Your choic is: {users_input}")
+    print(f"Your choice is: {user_choice}")
+    print("Now it's Computer's Turn. . .")
+    print(f"Computer choice is: {computer_choice}")
+    print(f"{user_choice} vs {computer_choice}")
 
 if __name__ == "__main__":
     main()
